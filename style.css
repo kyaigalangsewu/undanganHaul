@@ -1,6 +1,6 @@
 h1{
     font-family: "Hugheid";
-    font-size: 39px;
+    font-size: 31px;
     color: #AB8152;
 }
 .footer h3{
@@ -10,7 +10,7 @@ h1{
     font-size: 18px;
 }
 .kotak-tulisan h6{
-    font-size: 20x;
+    font-size: 14px;
 }
 p{
     font-family: "Montserrat";
@@ -43,7 +43,7 @@ p{
     align-items: center;
     background-color: white;
     padding-bottom: 15px;
-    padding: 5px;
+    padding: 10px;
     margin-top: -90px;
     border-radius: 20px;
     position: relative;
@@ -62,7 +62,6 @@ img{
 .rangkaian-kegiatan .container{
     padding-top: 60px;
 }
-
 .acara .container{
     margin-top: 15px;
 
@@ -75,6 +74,9 @@ img{
     color: white;
     border-radius: 20px;
 }
+.acara .col-12 h1{
+    font-size: 31px;
+}
 .acara img {
     width: 60%;
     height: auto;
@@ -85,16 +87,13 @@ img{
     margin-bottom: 10px;
     color: white;
 }
-.acara h1{
-    font-size: 39px;
-}
 
 .countdown .col-12{
     text-align: center;
 }
 
 .countdown p {
-    font-size: 39px;
+    font-size: 31px;
 
 }
 
@@ -129,8 +128,11 @@ img{
 .modal img {
     height: 150px;
     width: 150px;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-bottom: 40px;
+}
+.modal h6{
+    font-size: 16px;
 }
 
 /* .modal, h1 {
