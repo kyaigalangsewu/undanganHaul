@@ -1,0 +1,186 @@
+h1{
+    font-family: "Hugheid";
+    font-size: 39px;
+    color: #AB8152;
+}
+.footer h3{
+    font-family: "Hugheid";
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+.kotak-tulisan h6{
+    font-size: 20x;
+}
+p{
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+.jumbotron{
+    background-image: url(./image/IMG_5162\ \(1\).JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    padding-top: 500px;
+    position: relative
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top,rgba(171, 129, 82, 1),rgba(171, 129, 82, 0)  );
+    position: absolute;
+    bottom: 0;
+}
+
+
+.kotak-tulisan{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 15px;
+    padding: 5px;
+    margin-top: -90px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.tulisan-kecil{
+    text-align: center;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.rangkaian-kegiatan .container{
+    padding-top: 60px;
+}
+
+.acara .container{
+    margin-top: 15px;
+
+
+}
+.acara .col-12{
+    text-align: center;
+    background-color: #AB8152;
+    padding-top: 15px;
+    color: white;
+    border-radius: 20px;
+}
+.acara img {
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+.acara *{
+    margin-bottom: 10px;
+    color: white;
+}
+.acara h1{
+    font-size: 39px;
+}
+
+.countdown .col-12{
+    text-align: center;
+}
+
+.countdown p {
+    font-size: 39px;
+
+}
+
+.footer .container-fluid{
+    height: 50px;
+    width: 100%;
+    background-color:  #AB8152;
+    margin-top: -10px;
+}
+
+.footer .col-12{
+    margin-top: 8px;
+}
+.modal .modal-content{
+    background-color: #AB8152;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.modal .col-12{
+    color: white;
+}
+.modal .modal-content h1{
+    color: white;
+}
+
+.modal .btn{
+    margin-top: 20px;
+    background-color: white;
+    color: #AB8152;
+}
+.modal img {
+    height: 150px;
+    width: 150px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+/* .modal, h1 {
+    font-family: "Hugheid";
+    font-size: 50px;
+    color: white;
+} */
+
+@media (min-width: 992px) {
+    .kotak-tulisan{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding-bottom: 15px;
+        border-radius: 20px;
+        padding: 5px;
+        width: 50%;
+    }
+
+    .acara img {
+        width: 20%;
+        height: auto;
+        margin-top: 20px;
+      }
+
+      .countdown p {
+        font-size: 61px;
+    }
+    
+    .footer h3{
+        font-family: "Hugheid";
+        color: #ffffff;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .kotak-tulisan{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding-bottom: 15px;
+        padding: 5px;
+        margin-top: -120px;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+    }
+    .footer .col-12{
+        margin-top: 15px;
+    }
+}
