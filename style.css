@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Hugheid";
-    src: url(./Hugheid.eot) format('embedded open type');
+    src: url(./Hugheid.otf);
 }
 h1{
     font-family: "Hugheid";
