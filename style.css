@@ -1,3 +1,7 @@
+@font-face{
+    font-family: Hugheid;
+    src: url(./Hugheid.eot) format('embedded open type');
+}
 h1{
     font-family: "Hugheid";
     font-size: 31px;
